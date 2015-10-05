@@ -33,7 +33,7 @@ public class NewsList extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().print("기사리스트 화면입니다.");
+		response.getWriter().print("기사리스트 화면입니다.22");
 	}
 
 	/**
