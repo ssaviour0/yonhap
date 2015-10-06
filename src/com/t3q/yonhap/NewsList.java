@@ -26,14 +26,14 @@ public class NewsList extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		System.out.println("ÃÊ±âÈ­");
+		System.out.println("ï¿½Ê±ï¿½È­");
 	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().print("±â»ç¸®½ºÆ® È­¸éÀÔ´Ï´Ù.22");
+		response.getWriter().print("ï¿½ï¿½ç¸®ï¿½ï¿½Æ® È­ï¿½ï¿½ï¿½Ô´Ï´ï¿½.22");
 	}
 
 	/**
@@ -42,5 +42,5 @@ public class NewsList extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 	}
-
+	// develop commit test_1
 }
